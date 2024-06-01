@@ -14,4 +14,4 @@ app.get('/', (req, res) => {
 
 app.listen(port, () =>{
     console.log(`Assaigment 12 is running on port ${port}`);
-})
+});
