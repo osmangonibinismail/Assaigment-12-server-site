@@ -166,7 +166,7 @@ async function run() {
             }
             const result = await scholarshipCollection.updateOne(filter, updatedDoc);
             res.send(result);
-        });
+        })
 
         // add scholarship item
         app.post('/allScholarship', verifyToken, verifyAdmin, async (req, res) => {
