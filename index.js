@@ -130,7 +130,7 @@ async function run() {
             res.send(result);
         })
 
-        // update page
+        // update pages
         app.get('/allScholarship/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: new ObjectId(id) }
